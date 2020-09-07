@@ -1,0 +1,53 @@
+textarea {
+    min-height: 400px;
+}
+
+.emailDivs{
+    border: solid black 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.30);
+    
+    cursor: pointer;
+}
+
+.buttonsContainer{
+    display: flex;
+}
+.buttonsContainer > button{
+    margin-right: 11px;
+}
+
+
+.emailDivs{
+    margin-right: auto;
+}
+.timeDiv{
+    margin-left: auto;
+}
+
+.subjectDiv{
+    min-width: 550px;
+    margin-left: 20px;
+}
+
+
+.senderDiv{
+    width: 200px;
+    font-weight: bold;
+}
+
+#email :hover{
+    transform: scale(1.01);
+}
+
+.readMail {
+    background-color:#e9ecef;
+}
+
+.boldFont{
+    font-weight: bold;
+}
